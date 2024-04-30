@@ -1,0 +1,56 @@
+body{
+    background-color: black;
+}
+header{
+    background-color: var(--background-color2);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header__box{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+#registerButton{
+    background-color: var(--background-color2);
+    color: var(--color-gray-7);
+    border: 2px solid var(--color-gray-7);
+    font-size: var(--font-text-size-4);
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+
+main{
+    background-color: antiquewhite;
+}
+.banner__container{
+    background-color: var(--background-color);
+    height: 49rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner__box{
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid red;
+    min-height: 100%;
+    justify-content: center;
+    gap: 2rem;
+}
+#banner__text{
+    width: 60%;
+}
+.about__container{
+    background-color: bisque;
+}
+.FAQ__container{
+    background-color: blueviolet;
+}
+.comments__container{
+    background-color: brown;
+}
