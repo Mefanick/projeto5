@@ -13,7 +13,7 @@ header{
     display: flex;
     justify-content: space-between;
 }
-#registerButton{
+#register-button{
     background-color: var(--background-color2);
     color: var(--color-gray-7);
     border: 2px solid var(--color-gray-7);
@@ -37,7 +37,6 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 5px solid red;
     min-height: 100%;
     justify-content: center;
     gap: 2rem;
@@ -45,12 +44,85 @@ main{
 #banner__text{
     width: 60%;
 }
+.banner__button{
+    border: none;
+    background-color: var(--brand-1);
+    padding: 1rem 2rem 1rem 2rem;
+}
+.banner__button:hover{
+    background-color: var(--brand-2) !important;
+}
 .about__container{
-    background-color: bisque;
+    height: 18rem;
+    background-color: var(--background-color2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about__box{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+.about__title{
+    width: 50%;
+}
+#about-text{
+    width: 50%;
 }
 .FAQ__container{
-    background-color: blueviolet;
+    background-color: var(--background-color);
+    height: 1132px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.FAQ__main{
+    display: flex;
+    justify-content: space-between;
+    height: 90%;
+    width: 75%;
+}
+.FAQ__left{
+    width: 45%;
+}
+.FAQ__right{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    height: 968px;
+    gap: 1rem;
+}
+.FAQ__button--register{
+    border: none;
+    padding: 1rem 2rem 1rem 2rem;
+    background-color: var(--brand-1);
 }
 .comments__container{
-    background-color: brown;
+    background-color: var(--background-color);
+    height: 1387px;
+    display: flex;
+    justify-content: center;
+}
+.comments__box{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.right__block{
+    width: 35%;
+    background-color: var(--brand-1);
+    height: 25%;
+    padding: 3rem 2rem 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.left__block{
+    width: 45%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }

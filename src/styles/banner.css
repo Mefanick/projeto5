@@ -1,0 +1,27 @@
+.banner__container{
+    background-color: var(--background-color);
+    height: 49rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner__box{
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100%;
+    justify-content: center;
+    gap: 2rem;
+}
+#banner__text{
+    width: 60%;
+}
+.banner__button{
+    border: none;
+    background-color: var(--brand-1);
+    padding: 1rem 2rem 1rem 2rem;
+}
+.banner__button:hover{
+    background-color: var(--brand-2) !important;
+}

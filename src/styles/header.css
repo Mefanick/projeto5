@@ -1,0 +1,19 @@
+header{
+    background-color: var(--background-color2);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header__box{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+#registerButton{
+    background-color: var(--background-color2);
+    color: var(--color-gray-7);
+    border: 2px solid var(--color-gray-7);
+    font-size: var(--font-text-size-4);
+    padding: 1rem 2rem 1rem 2rem;
+}

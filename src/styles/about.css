@@ -1,0 +1,18 @@
+.about__container{
+    height: 18rem;
+    background-color: var(--background-color2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about__box{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+.about__title{
+    width: 50%;
+}
+#about-text{
+    width: 50%;
+}
