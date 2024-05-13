@@ -1,0 +1,27 @@
+.comments__container{
+    background-color: var(--background-color);
+    height: 1387px;
+    display: flex;
+    justify-content: center;
+}
+.comments__box{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.right__block{
+    width: 35%;
+    background-color: var(--brand-1);
+    height: 25%;
+    padding: 3rem 2rem 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.left__block{
+    width: 45%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}

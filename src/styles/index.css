@@ -21,10 +21,6 @@ header{
     padding: 1rem 2rem 1rem 2rem;
 }
 
-
-main{
-    background-color: antiquewhite;
-}
 .banner__container{
     background-color: var(--background-color);
     height: 49rem;
@@ -39,10 +35,11 @@ main{
     align-items: center;
     min-height: 100%;
     justify-content: center;
-    gap: 2rem;
+    gap: 3.5rem;
 }
-#banner__text{
-    width: 60%;
+#banner-text{
+    width: 71%;
+    text-align: center;
 }
 .banner__button{
     border: none;
@@ -63,12 +60,13 @@ main{
     width: 75%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .about__title{
     width: 50%;
 }
 #about-text{
-    width: 50%;
+    width: 45%;
 }
 .FAQ__container{
     background-color: var(--background-color);
@@ -86,6 +84,12 @@ main{
 .FAQ__left{
     width: 45%;
 }
+.FAQ__left--box{
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
 .FAQ__right{
     width: 45%;
     display: flex;
@@ -98,6 +102,16 @@ main{
     border: none;
     padding: 1rem 2rem 1rem 2rem;
     background-color: var(--brand-1);
+    max-width: 266px;
+}
+.FAQ__right--item{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.FAQ__title{
+   text-align: center;
 }
 .comments__container{
     background-color: var(--background-color);
@@ -118,6 +132,7 @@ main{
     padding: 3rem 2rem 3rem 2rem;
     display: flex;
     flex-direction: column;
+    margin-top: 100px;
 }
 .left__block{
     width: 45%;
@@ -125,4 +140,11 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: var(--background-color2);
 }

@@ -12,10 +12,11 @@
     align-items: center;
     min-height: 100%;
     justify-content: center;
-    gap: 2rem;
+    gap: 3.5rem;
 }
-#banner__text{
-    width: 60%;
+#banner-text{
+    width: 71%;
+    text-align: center;
 }
 .banner__button{
     border: none;
