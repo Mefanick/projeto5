@@ -13,13 +13,13 @@
 
 
     --font-family:  'Inter', sans-serif;
-    --font-text-size-1: 1.125rem;
-    --font-text-size-2: 1rem;
-    --font-text-size-3: 0.875rem;
-    --font-text-size-4: 0.875rem;
-    --font-title-size-1:3rem;
-    --font-title-size-2:2.25rem;
-    --font-title-size-3:1.5rem;
+    --font-text-size-1: 1rem;
+    --font-text-size-2: 0.875rem;
+    --font-text-size-3: 0.75rem;
+    --font-text-size-4: 0.75rem;
+    --font-title-size-1:2.5rem;
+    --font-title-size-2:2rem;
+    --font-title-size-3:1.625rem;
 }
 body{
     font-family: var(--font-family);
@@ -28,22 +28,21 @@ h1{
     font-size: var(--font-title-size-1);
     font-weight: 600;
     color: var(--color-gray-6);
-}
-h2{
-    font-size: var(--font-title-size-2);
-    font-weight: 600;
-}
-span{
-    color: var(--brand-1);
+    
 }
 h2{
     font-size: var(--font-title-size-2);
     color: var(--color-gray-6);
+    font-weight: 500;
+    line-height: 3.2rem;
 }
 h3{
     font-size: var(--font-title-size-3);
-    font-weight: 600;
+    font-weight: 500;
     color: var(--color-gray-6);
+}
+span{
+    color: var(--brand-1);
 }
 .gray__color--5{
     color: var(--color-gray-5) !important;
@@ -54,16 +53,22 @@ h3{
 .text__1{
     font-size: var(--font-text-size-1);
     color: var(--color-gray-4);
+    line-height: 1.5rem;
+    text-align: justify;
 }
 .text__2{
     font-size: var(--font-text-size-2);
     color: var(--color-gray-5);
+    line-height: 1.5rem;
+    text-align: justify;
 }
 .text__3{
     font-size: var(--font-text-size-3);
     color: var(--color-gray-4);
+    line-height: 1.25rem;
 }
 .text__4{
     font-size: var(--font-text-size-4);
     color: var(--color-gray-7);
+    line-height: 1.25rem;
 }

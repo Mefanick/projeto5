@@ -3,13 +3,14 @@ body{
 }
 header{
     background-color: var(--background-color2);
-    height: 100px;
+    height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-bottom: var(--brand-1) 2px solid;
 }
 .header__box{
-    width: 80%;
+    width: 75%;
     display: flex;
     justify-content: space-between;
 }
@@ -29,7 +30,7 @@ header{
     align-items: center;
 }
 .banner__box{
-    max-width: 80%;
+    width: 75%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -38,7 +39,7 @@ header{
     gap: 3.5rem;
 }
 #banner-text{
-    width: 71%;
+    width: 57%;
     text-align: center;
 }
 .banner__button{
@@ -50,7 +51,7 @@ header{
     background-color: var(--brand-2) !important;
 }
 .about__container{
-    height: 18rem;
+    height: 16rem;
     background-color: var(--background-color2);
     display: flex;
     justify-content: center;
@@ -74,6 +75,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 40px;
 }
 .FAQ__main{
     display: flex;
@@ -102,7 +104,7 @@ header{
     border: none;
     padding: 1rem 2rem 1rem 2rem;
     background-color: var(--brand-1);
-    max-width: 266px;
+    max-width: 50%;
 }
 .FAQ__right--item{
     height: 100%;
@@ -110,12 +112,15 @@ header{
     flex-direction: column;
     justify-content: space-evenly;
 }
+.FAQ__right--item > p{
+    margin: 2rem 0 2rem 0;
+}
 .FAQ__title{
    text-align: center;
 }
 .comments__container{
     background-color: var(--background-color);
-    height: 1387px;
+    height: 1100px;
     display: flex;
     justify-content: center;
 }
@@ -127,20 +132,29 @@ header{
 }
 
 .right__block{
-    width: 35%;
+    width: 39%;
     background-color: var(--brand-1);
-    height: 25%;
-    padding: 3rem 2rem 3rem 2rem;
+    height: 350px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin-top: 100px;
+}
+.comments__right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80%;
+    height: 60%;
 }
 .left__block{
     width: 50%;
-    height: 90%;
+    height: 80%;
     display: flex;
+    margin-top: 10%;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 .comment__item{
     display: flex;
@@ -156,6 +170,7 @@ header{
 }
 .comment__text{
     width: 500px;
+    
 
 }
 footer{
