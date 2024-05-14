@@ -125,6 +125,7 @@ header{
     justify-content: space-between;
     flex-direction: row-reverse;
 }
+
 .right__block{
     width: 35%;
     background-color: var(--brand-1);
@@ -135,11 +136,27 @@ header{
     margin-top: 100px;
 }
 .left__block{
-    width: 45%;
+    width: 50%;
     height: 90%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+}
+.comment__item{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.student__info{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin-right: 10px;
+
+}
+.comment__text{
+    width: 500px;
+
 }
 footer{
     display: flex;
