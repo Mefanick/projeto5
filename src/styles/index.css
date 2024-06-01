@@ -82,7 +82,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 40px;
+    padding-bottom: 100px;
 }
 .FAQ__main{
     display: flex;
@@ -247,3 +247,11 @@ footer{
     height: 100px;
     background-color: var(--background-color2);
 }
+@media (min-width: 7680px) and (max-width: 1024px) {
+    /* regras de estilo aqui */
+
+  }
+@media (min-width: 425px) and (max-width: 768px) {
+    /* regras de estilo aqui */
+
+  }

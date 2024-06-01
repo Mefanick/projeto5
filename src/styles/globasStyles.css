@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+
+
 :root{
     --brand-1: #4C6EF5;
     --brand-2:#364FC7;
@@ -13,13 +15,13 @@
 
 
     --font-family:  'Inter', sans-serif;
-    --font-text-size-1: 1rem;
-    --font-text-size-2: 0.875rem;
-    --font-text-size-3: 0.75rem;
-    --font-text-size-4: 0.75rem;
-    --font-title-size-1:2.5rem;
-    --font-title-size-2:2rem;
-    --font-title-size-3:1.625rem;
+    --font-text-size-1: clamp(0.65rem, 0.486rem + 0.619vw, 1rem);
+    --font-text-size-2: clamp(0.5rem, 0.324rem + 0.663vw, 0.875rem);
+    --font-text-size-3: clamp(0.5rem, 0.383rem + 0.442vw, 0.75rem);
+    --font-text-size-4: clamp(0.5rem, 0.383rem + 0.442vw, 0.75rem);
+    --font-title-size-1:clamp(1rem, 0.296rem + 2.652vw, 2.5rem);
+    --font-title-size-2:clamp(1rem, 0.53rem + 1.768vw, 2rem);
+    --font-title-size-3:clamp(1rem, 0.706rem + 1.105vw, 1.625rem);;
 }
 body{
     font-family: var(--font-family);
@@ -34,7 +36,7 @@ h2{
     font-size: var(--font-title-size-2);
     color: var(--color-gray-6);
     font-weight: 500;
-    line-height: 3.2rem;
+    line-height: clamp(1.2rem, 0.261rem + 3.536vw, 3.2rem);
 }
 h3{
     font-size: var(--font-title-size-3);
@@ -53,22 +55,22 @@ span{
 .text__1{
     font-size: var(--font-text-size-1);
     color: var(--color-gray-4);
-    line-height: 1.5rem;
+    line-height: clamp(0.7rem, 0.324rem + 1.414vw, 1.5rem);
     text-align: justify;
 }
 .text__2{
     font-size: var(--font-text-size-2);
     color: var(--color-gray-5);
-    line-height: 1.5rem;
+    line-height: clamp(0.7rem, 0.324rem + 1.414vw, 1.5rem);
     text-align: justify;
 }
 .text__3{
     font-size: var(--font-text-size-3);
     color: var(--color-gray-4);
-    line-height: 1.25rem;
+    line-height: clamp(0.7rem, 0.442rem + 0.972vw, 1.25rem);
 }
 .text__4{
     font-size: var(--font-text-size-4);
     color: var(--color-gray-7);
-    line-height: 1.25rem;
+    line-height: clamp(0.7rem, 0.442rem + 0.972vw, 1.25rem);
 }
