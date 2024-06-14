@@ -247,7 +247,7 @@ footer{
     height: 100px;
     background-color: var(--background-color2);
 }
-@media (min-width: 7680px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
     /* regras de estilo aqui */
 
   }
