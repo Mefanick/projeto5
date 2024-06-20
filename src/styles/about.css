@@ -16,3 +16,31 @@
 #about-text{
     width: 50%;
 }
+
+
+
+
+@media (min-width: 425px) and (max-width: 768px) {
+    /* regras de estilo aqui */
+    .about__container{
+        height: 16rem;
+        background-color: var(--background-color2);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .about__box{
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about__title{
+        width: auto;
+        padding-bottom: 1rem;
+    }
+    #about-text{
+        width: 100%;
+    }
+}

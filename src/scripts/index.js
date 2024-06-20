@@ -13,4 +13,5 @@ buttonBot.addEventListener("click", () => {
 });
 closeButton.addEventListener("click", () => {modalContainer.close()});
 
-0
+// fazer tela celular
+// clamp em algumas widths
