@@ -21,7 +21,44 @@
     --font-text-size-4: clamp(0.5rem, 0.383rem + 0.442vw, 0.75rem);
     --font-title-size-1:clamp(1rem, 0.296rem + 2.652vw, 2.5rem);
     --font-title-size-2:clamp(1rem, 0.53rem + 1.768vw, 2rem);
-    --font-title-size-3:clamp(1rem, 0.706rem + 1.105vw, 1.625rem);;
+    --font-title-size-3:clamp(1rem, 0.706rem + 1.105vw, 1.625rem);
+}
+@media (min-width: 426px) and (max-width: 768px){
+    :root{
+        --font-text-size-1: clamp(0.7rem, 0.329rem + 1.395vw, 1rem);
+        --font-text-size-2: clamp(0.6rem, 0.26rem + 1.279vw, 0.875rem);
+        --font-text-size-3: clamp(0.55rem, 0.303rem + 0.93vw, 0.75rem);
+        --font-text-size-4: clamp(0.55rem, 0.303rem + 0.93vw, 0.75rem);
+        --font-title-size-1:clamp(2rem, 1.382rem + 2.326vw, 2.5rem);
+        --font-title-size-2:clamp(1.75rem, 1.441rem + 1.163vw, 2rem);
+        --font-title-size-3:clamp(1.5rem, 1.346rem + 0.581vw, 1.625rem)
+    }
+    .text__1, .text__2, .text__3{
+        line-height: 1rem !important;
+    }
+    
+    h2{
+        line-height: 3rem !important;
+    }
+}
+@media (max-width: 425px){
+    :root{
+        --font-text-size-1:1rem;
+        --font-text-size-2: 0.875rem !important;
+        --font-text-size-3: 0.75rem;
+        --font-text-size-4: 0.75rem;
+        --font-title-size-1:2rem;
+        --font-title-size-2:1.75rem;
+        --font-title-size-3:1.5rem;
+    }
+
+    .text__1, .text__2, .text__3{
+        line-height: 1rem !important;
+    }
+    
+    h2{
+        line-height: 3rem !important;
+    }
 }
 body{
     font-family: var(--font-family);
@@ -30,7 +67,7 @@ h1{
     font-size: var(--font-title-size-1);
     font-weight: 600;
     color: var(--color-gray-6);
-    
+    text-align: center;
 }
 h2{
     font-size: var(--font-title-size-2);

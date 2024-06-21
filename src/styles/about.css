@@ -1,29 +1,7 @@
-.about__container{
-    height: 18rem;
-    background-color: var(--background-color2);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.about__box{
-    width: 75%;
-    display: flex;
-    justify-content: space-between;
-}
-.about__title{
-    width: 50%;
-}
-#about-text{
-    width: 50%;
-}
 
-
-
-
-@media (min-width: 425px) and (max-width: 768px) {
-    /* regras de estilo aqui */
+@media (min-width: 768px) and (max-width: 4000px){
     .about__container{
-        height: 16rem;
+        height: 18rem;
         background-color: var(--background-color2);
         display: flex;
         justify-content: center;
@@ -32,15 +10,61 @@
     .about__box{
         width: 75%;
         display: flex;
-        flex-direction: column;
+        justify-content: space-between;
+    }
+    .about__title{
+        width: 50%;
+    }
+    #about-text{
+        width: 50%;
+    }
+}
+@media (min-width: 425px) and (max-width: 768px) {
+    /* regras de estilo aqui */
+    .about__container{
+        height: 18rem;
+        background-color: var(--background-color2);
+        display: flex;
         justify-content: center;
         align-items: center;
     }
+    .about__box{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 50px;
+        align-items: center;
+    }
     .about__title{
-        width: auto;
-        padding-bottom: 1rem;
+        width: 50%;
+        text-align: center;
     }
     #about-text{
-        width: 100%;
+        width: 95%;
+    }
+}
+@media (max-width: 425px){
+    .about__container{
+        height: 18rem;
+        background-color: var(--background-color2);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .about__box{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 50px;
+        align-items: center;
+    }
+    .about__title{
+        width: 50%;
+        text-align: center;
+    }
+    #about-text{
+        width: 95%;
     }
 }

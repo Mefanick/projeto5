@@ -458,7 +458,7 @@ body{
     #modalContainer{
         background-color: var(--background-color);
         border: 2px solid var(--brand-1);
-        width: 28%;
+        width: 50%;
         padding: 0;
         max-height: 420px;
         position: fixed;
@@ -550,7 +550,7 @@ body{
 
     .banner__container{
         background-color: var(--background-color);
-        height: 20rem;
+        height: 30rem;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -660,7 +660,7 @@ body{
     }
     .comments__container{
         background-color: var(--background-color);
-        height: 1100px;
+        height: 1500px;
         display: flex;
         justify-content: center;
     }
@@ -675,12 +675,12 @@ body{
     .right__block{
         width: 100%;
         background-color: var(--brand-1);
-        height: 350px;
+        height: 600px;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-top: 0px;
+        margin-top: 100px;
         position: static;
     }
     .comments__right{
@@ -698,7 +698,8 @@ body{
         margin-top: 10%;
         flex-direction: column;
         justify-content: space-between;
-        margin-bottom: 100px;
+        margin-bottom: 2rem;
+        gap: 2rem;
     }
     .comment__item{
         display: flex;
@@ -710,7 +711,7 @@ body{
         display: flex;
         flex-direction: row;
         gap: 20px;
-        width: 50%;
+        width: 100%;
         margin-right: 10px;
     
     }
@@ -722,9 +723,9 @@ body{
     #modalContainer{
         background-color: var(--background-color);
         border: 2px solid var(--brand-1);
-        width: 28%;
+        width: 100%;
         padding: 0;
-        max-height: 420px;
+        max-height: 500px;
         position: fixed;
         bottom: 12%;
     }
