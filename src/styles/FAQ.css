@@ -1,59 +1,4 @@
-.FAQ__container{
-    background-color: var(--background-color);
-    height: 1132px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 100px;
-}
-.FAQ__main{
-    display: flex;
-    justify-content: space-between;
-    justify-self: end;
-    height: 90%;
-    width: 75%;
-    padding-top: 10%;
-}
-.FAQ__left{
-    width: 45%;
-}
-.FAQ__left--box{
-    height: 280px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    position: sticky;
-    top: 20%;
-    z-index: 1;
-}
-.FAQ__right{
-    width: 45%;
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-    height: 968px;
-    gap: 1rem;
-}
-.FAQ__button--register{
-    border: none;
-    padding: 1rem 2rem 1rem 2rem;
-    background-color: var(--brand-1);
-    max-width: 50%;
-}
-.FAQ__right--item{
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-.FAQ__right--item > p{
-    margin: 2rem 0 2rem 0;
-}
-.FAQ__title{
-   text-align: center;
-}
-@media (min-width: 425px) and (max-width: 768px) {
-    /* regras de estilo aqui */
+@media (min-width: 768px) and (max-width: 4000px){
     .FAQ__container{
         background-color: var(--background-color);
         height: 1132px;
@@ -64,8 +9,8 @@
     }
     .FAQ__main{
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        justify-content: space-between;
+        justify-self: end;
         height: 90%;
         width: 75%;
         padding-top: 10%;
@@ -73,14 +18,13 @@
     .FAQ__left{
         width: 45%;
     }
-    .FAQ__left--box {
-        height: 180px;
+    .FAQ__left--box{
+        height: 280px;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         position: sticky;
         top: 20%;
-        text-align: center;
         z-index: 1;
     }
     .FAQ__right{
@@ -109,4 +53,123 @@
     .FAQ__title{
        text-align: center;
     }
-  }
+}
+@media (min-width: 425px) and (max-width: 768px) {
+      /* regras de estilo aqui */
+      .FAQ__container{
+        background-color: var(--background-color);
+        height: 1132px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 0px;
+    }
+    .FAQ__main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 90%;
+        width: 95%;
+        padding-top: 10%;
+    }
+    .FAQ__left{
+        width: 90%;
+
+    }
+    .FAQ__left--box {
+        height: 180px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        position: sticky;
+        top: 20%;
+        text-align: center;
+        z-index: 1;
+    }
+    .FAQ__right{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        height: 968px;
+        gap: 1rem;
+    }
+    .FAQ__button--register{
+        border: none;
+        padding: 1rem 2rem 1rem 2rem;
+        background-color: var(--brand-1);
+        max-width: 100%;
+    }
+    .FAQ__right--item{
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .FAQ__right--item > p{
+        margin: 2rem 0 2rem 0;
+    }
+    .FAQ__title{
+       text-align: center;
+    }
+}
+@media (max-width: 425px){
+    .FAQ__container{
+        background-color: var(--background-color);
+        height: 1132px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 0px;
+    }
+    .FAQ__main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 90%;
+        width: 95%;
+        padding-top: 10%;
+    }
+    .FAQ__left{
+        width: 90%;
+
+    }
+    .FAQ__left--box {
+        height: 180px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        position: sticky;
+        top: 20%;
+        text-align: center;
+        z-index: 1;
+    }
+    .FAQ__right{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        height: 968px;
+        gap: 1rem;
+    }
+    .FAQ__button--register{
+        border: none;
+        padding: 1rem 2rem 1rem 2rem;
+        background-color: var(--brand-1);
+        max-width: 100%;
+    }
+    .FAQ__right--item{
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .FAQ__right--item > p{
+        margin: 2rem 0 2rem 0;
+    }
+    .FAQ__title{
+       text-align: center;
+    }
+}

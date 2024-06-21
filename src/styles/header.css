@@ -1,20 +1,92 @@
 
-header{
-    background-color: var(--background-color2);
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+@media (min-width: 768px) and (max-width: 4000px){
+    header{
+        background-color: var(--background-color2);
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: var(--brand-1) 2px solid;
+        position: sticky;
+        z-index: 5;
+        top: 0px;
+    }
+    .header__box{
+        width: 75%;
+        display: flex;
+        justify-content: space-between;
+    }
+    #register-button{
+        background-color: var(--background-color2);
+        color: var(--color-gray-7);
+        border: 2px solid var(--color-gray-7);
+        font-size: var(--font-text-size-4);
+        padding: 1rem 2rem 1rem 2rem;
+    }
+    #register-button:hover{
+        background-color: var(--brand-2);
+        border: var(--brand-2) solid 2px;
+        transition: all 0.5s ease;
+    }
 }
-.header__box{
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
+@media (min-width: 425px) and (max-width: 768px) {
+    /* regras de estilo aqui */
+    header{
+        background-color: var(--background-color2);
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: var(--brand-1) 2px solid;
+        position: sticky;
+        z-index: 5;
+        top: 0px;
+    }
+    .header__box{
+        width: 75%;
+        display: flex;
+        justify-content: space-between;
+    }
+    #register-button{
+        background-color: var(--background-color2);
+        color: var(--color-gray-7);
+        border: 2px solid var(--color-gray-7);
+        font-size: var(--font-text-size-4);
+        padding: 1rem 2rem 1rem 2rem;
+    }
+    #register-button:hover{
+        background-color: var(--brand-2);
+        border: var(--brand-2) solid 2px;
+        transition: all 0.5s ease;
+    }
 }
-#registerButton{
-    background-color: var(--background-color2);
-    color: var(--color-gray-7);
-    border: 2px solid var(--color-gray-7);
-    font-size: var(--font-text-size-4);
-    padding: 1rem 2rem 1rem 2rem;
+@media (max-width: 425px){
+    header{
+        background-color: var(--background-color2);
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: var(--brand-1) 2px solid;
+        position: sticky;
+        z-index: 5;
+        top: 0px;
+    }
+    .header__box{
+        width: 75%;
+        display: flex;
+        justify-content: space-between;
+    }
+    #register-button{
+        display: none;
+        background-color: var(--background-color2);
+        color: var(--color-gray-7);
+        border: 0px solid var(--color-gray-7);
+        font-size: var(--font-text-size-4);
+    }
+    #register-button:hover{
+        background-color: var(--brand-2);
+        border: var(--brand-2) solid 2px;
+        transition: all 0.5s ease;
+    }
 }

@@ -1,28 +1,92 @@
-.banner__container{
-    background-color: var(--background-color);
-    height: 49rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+@media (min-width: 768px) and (max-width: 4000px){
+    .banner__container{
+        background-color: var(--background-color);
+        height: 49rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner__box{
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100%;
+        justify-content: center;
+        gap: 3.5rem;
+    }
+    #banner-text{
+        width: 57%;
+        text-align: center;
+    }
+    .banner__button{
+        border: none;
+        background-color: var(--brand-1);
+        padding: 1rem 2rem 1rem 2rem;
+    }
+    .banner__button:hover{
+        background-color: var(--brand-2) !important;
+    }
 }
-.banner__box{
-    max-width: 80%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 100%;
-    justify-content: center;
-    gap: 3.5rem;
+@media (min-width: 425px) and (max-width: 768px) {
+    /* regras de estilo aqui */
+    .banner__container{
+        background-color: var(--background-color);
+        height: 40rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner__box{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100%;
+        justify-content: center;
+        gap: 3.5rem;
+    }
+    #banner-text{
+        width: 95%;
+        text-align: center;
+    }
+    .banner__button{
+        border: none;
+        background-color: var(--brand-1);
+        padding: 1rem 2rem 1rem 2rem;
+    }
+    .banner__button:hover{
+        background-color: var(--brand-2) !important;
+    }
 }
-#banner-text{
-    width: 71%;
-    text-align: center;
-}
-.banner__button{
-    border: none;
-    background-color: var(--brand-1);
-    padding: 1rem 2rem 1rem 2rem;
-}
-.banner__button:hover{
-    background-color: var(--brand-2) !important;
+@media (max-width: 425px){
+    .banner__container{
+        background-color: var(--background-color);
+        height: 30rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner__box{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100%;
+        justify-content: center;
+        gap: 3.5rem;
+    }
+    #banner-text{
+        width: 95%;
+        text-align: center;
+    }
+    .banner__button{
+        border: none;
+        background-color: var(--brand-1);
+        padding: 1rem 2rem 1rem 2rem;
+    }
+    .banner__button:hover{
+        background-color: var(--brand-2) !important;
+    }
 }

@@ -1,85 +1,191 @@
-.comments__container{
-    background-color: var(--background-color);
-    height: 1387px;
-    display: flex;
-    justify-content: center;
-}
-.comments__box{
-    width: 75%;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row-reverse;
-}
-.right__block{
-    width: 35%;
-    background-color: var(--brand-1);
-    height: 25%;
-    padding: 3rem 2rem 3rem 2rem;
-    display: flex;
-    flex-direction: column;
-}
-.comments__right{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 80%;
-    height: 60%;
-}
-.left__block{
-    width: 50%;
-    height: 80%;
-    display: flex;
-    margin-top: 10%;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.comment__item{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-}
-.student__info{
-    display: flex;
-    flex-direction: column;
-    width: 200px;
-    margin-right: 10px;
 
-}
-.comment__text{
-    width: 500px;
+@media (min-width: 768px) and (max-width: 4000px){
+
+    .comments__container{
+        background-color: var(--background-color);
+        height: 1100px;
+        display: flex;
+        justify-content: center;
+    }
+    .comments__box{
+        width: 75%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
     
-
+    .right__block{
+        width: 39%;
+        background-color: var(--brand-1);
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 100px;
+        position: sticky;
+        top: 20%;
+    }
+    .comments__right{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 80%;
+        height: 60%;
+    }
+    .left__block{
+        width: 50%;
+        height: 80%;
+        display: flex;
+        margin-top: 10%;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .comment__item{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .student__info{
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        margin-right: 10px;
+    
+    }
+    .comment__text{
+        width: 500px;
+        
+    
+    }
 }
 
 @media (min-width: 425px) and (max-width: 768px) {
     /* regras de estilo aqui */
     .comments__container{
         background-color: var(--background-color);
-        height: 1387px;
+        height: 1100px;
         display: flex;
         justify-content: center;
     }
-    .comments__box {
-        width: 75%;
+    .comments__box{
+        width: 95%;
         display: flex;
-        justify-content: space-between;
-        flex-direction: row-reverse;
-        margin-top: 250px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
     }
+    
     .right__block{
-        width: 35%;
+        width: 100%;
         background-color: var(--brand-1);
-        height: 25%;
-        padding: 3rem 2rem 3rem 2rem;
+        height: 350px;
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0px;
+        position: static;
+    }
+    .comments__right{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+        width: 90%;
+        height: 60%;
     }
     .left__block{
-        width: 45%;
-        height: 90%;
+        width: 95%;
+        height: 80%;
+        display: flex;
+        margin-top: 10%;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 100px;
+    }
+    .comment__item{
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
+        gap: 10px;
+        width: 100%;
+    }
+    .student__info{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        width: 50%;
+        margin-right: 10px;
+    
+    }
+    .comment__text{
+        width: 100%;
+        
     }
     
   }
+
+@media (max-width: 425px){
+    .comments__container{
+        background-color: var(--background-color);
+        height: 1500px;
+        display: flex;
+        justify-content: center;
+    }
+    .comments__box{
+        width: 95%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 150px;
+    }
+    
+    .right__block{
+        width: 100%;
+        background-color: var(--brand-1);
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 100px;
+        position: static;
+    }
+    .comments__right{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+        width: 90%;
+        height: 60%;
+    }
+    .left__block{
+        width: 95%;
+        height: 80%;
+        display: flex;
+        margin-top: 10%;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 2rem;
+        gap: 2rem;
+    }
+    .comment__item{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+    .student__info{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        width: 100%;
+        margin-right: 10px;
+    
+    }
+    .comment__text{
+        width: 100%;
+        
+    }
+}
